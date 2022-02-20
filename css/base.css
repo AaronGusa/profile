@@ -191,7 +191,7 @@ li {
     
     header {
         display: grid;
-        grid-template-columns: .7fr 2fr;
+        grid-template-columns: 1fr 1.2fr;
         grid-template-rows: 0.5fr 0.5fr;
         margin-bottom: 0;
 
@@ -249,5 +249,9 @@ li {
     main div {
         margin: 0;
         padding: 1rem;
+    }
+
+    footer {
+        clear: both
     }
 };
